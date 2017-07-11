@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="https://github.com/ChillyHamilton/moonshine.git">
+<link href="https://fonts.googleapis.com/css?family=Bellefair|Oswald" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<head>
+	<style type="text/css">
+		.video-section .pattern-overlay {
+			background-color: rgba(71, 71, 71, 0.59);
+			padding: 110px 0 32px;
+			min-height: 496px; 
+			/* Incase of overlay problems just increase the min-height*/
+		}
+		.video-section h1, .video-section h3{
+			text-align:center;
+			color:#fff;
+		}
+		.video-section h1{
+			font-size:110px;
+			font-family: 'Buenard', serif;
+			font-weight:bold;
+			text-transform: uppercase;
+			margin: 40px auto 0px;
+			text-shadow: 1px 1px 1px #000;
+			-webkit-text-shadow: 1px 1px 1px #000;
+			-moz-text-shadow: 1px 1px 1px #000;
+		}
+		.video-section h3{
+			font-size: 25px;
+			font-weight:lighter;
+			margin: 0px auto 15px;
+		}
+		.video-section .buttonBar{display:none;}
+		.player {font-size: 1px;}
+		.title {text-align: center; 
+			margin-left: 100px;
+			padding-left: 100px; 
+			color: black; 
+			font-family: 'Oswald', serif; 
+			letter-spacing: 20px; 
+			font-style: italic;
+			white-space: no-wrap;
+			text-overflow: clip;
+		}
+		
+		.vid-back body {/*background-image: url("https://scontent.cdninstagram.com/t51.2885-15/e35/12328055_365486950241716_580991006_n.jpg");*/
+		background-repeat: no-repeat; 
+		background-position: center;
+		background-attachment: fixed;
+		background-size: 100%
+	}
+
+	a:link {
+		color: black;
+	}
+
+	a:visited {
+		color: black;
+	}
+
+	.nav {font-family: 'Oswald', serif;
+	margin-left: 400px;
+	color: black;
+	position: fixed;}
+</style>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-4">
+			<div id="video-wrapper" class="video-wrapper">
+
+				<video autoplay loop muted  id="bgvid">
+					<source src="https://scontent.cdninstagram.com/t50.2886-16/14523758_196865160737737_5201606274818506752_n.mp4" type="video/mp4">
+					</video>
+				</div>
+			</div>
+
+			<div class="col-lg-4">
+				<div>
+					<img src="https://scontent.cdninstagram.com/t51.2885-15/e35/15034915_157388644734028_4433145817070567424_n.jpg" class="img-responsive center">
+					</div>
+				</div>
+
+				<div class="col-lg-4">
+					<div id="video-wrapper" class="video-wrapper">
+
+						<video autoplay loop muted  id="bgvid">
+							<source src="https://scontent.cdninstagram.com/t50.2886-16/12141325_914260378648595_1250192699_n.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="content">
+		<title>Moonshine Metal Shaping</title>
+	</div>
+
+	<div>
+		<h1 class="title">Moonshine Metal Co.</h1>
+	</div>
+
+</head> 
+
+<body>
+	<div>
+		<h2 class="title" style="padding-left: 100px; margin-left: 200px;"> Custom metal shaping </h2>
+	</div>
+	<div>
+		<ul class="nav">
+			<li><a href="https://www.instagram.com/moonshine_metal/"> About</a></li>
+			<li><a href="https://www.instagram.com/moonshine_metal/"> Blog</a></li>
+			<li><a href="https://www.instagram.com/moonshine_metal/"> Contact</a></li>
+		</ul>
+	</div>
+</body>
